@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "profile.jpeg"
+  avatar           : "profile.png"
   bio              : "Astrophysics PhD student at the University of Oklahoma, studying the formation and evolution of planetary systems through high-contrast imaging."
   location         : "Norman, Oklahoma"
   employer         :
