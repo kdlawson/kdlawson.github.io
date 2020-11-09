@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kellen D. Lawson"
 title_separator          : "-"
 name                     : &name "Kellen D. Lawson"
-description              : &description " Astrophysics PhD student at the University of Oklahoma, studying the formation and evolution of planetary systems through high-contrast imaging."
+description              : &description "Astrophysics PhD student at the University of Oklahoma, studying the formation and evolution of planetary systems through high-contrast imaging."
 url                      : https://kdlawson.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kdlawson/kdlawson.github.io"
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : 
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Astrophysics PhD student at the University of Oklahoma, studying the formation and evolution of planetary systems through high-contrast imaging."
+  location         : "Norman, Oklahoma"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :
+  googlescholar    :
   email            : "kellenlawson@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -100,13 +100,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-6964-8732"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : "kellen_lawson"
