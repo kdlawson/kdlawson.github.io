@@ -5,9 +5,9 @@ permalink: /publication/pyvan_paper
 excerpt: ''
 date: 2019 September
 venue: 'The Astronomical Journal'
-paperurl: 'https://arxiv.org/pdf/2008.00309.pdf'
+paperurl: 'https://arxiv.org/pdf/1903.03240.pdf'
 citation: 'Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., \& Shupe, D. L. 2019, AJ, 158, 119'
 ---
-[Download paper here](https://arxiv.org/pdf/2008.00309.pdf)
+[Download paper here](https://arxiv.org/pdf/1903.03240.pdf)
 
 Recommended citation: Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., \& Shupe, D. L. 2019, AJ, 158, 119
