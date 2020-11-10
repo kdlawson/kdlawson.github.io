@@ -18,8 +18,8 @@ In a recent paper, we demonstrated the utility of the Differential Evolution (DE
 
 ![](images/toymodel_de.gif)
 
-To put the improvement offered by DE into perspective: in the toy-model visualization, the background contours are drawn using a 12 point grid, meaning 12⁷ or ~36 million evaluations of our toy-model objective function. Noting that this is effectively a massive analog to the commonly implemented grid search: the DE run beats the best solution from the grid after only 1330 evaluations.
+To put the improvement offered by DE into perspective: the background contours in the toy-model visualization are drawn using a 12 point grid, meaning 12⁷ or ~36 million evaluations of our toy-model objective function. Noting that this is effectively a massive analog to the commonly implemented grid search: the DE run beats the best solution from the grid after only 1330 evaluations.
 
-In the future, I hope to use model optimization with DE to enable us to form a clearer picture of what we've observing, and thus allow for more detailed analysis of things like dust grain distributions and disk geometry.
+Going forward, model optimization with DE will enable us to form a clearer picture of what we've observed, and will thus allow for more detailed analysis of things like dust grain distributions and disk geometry.
 
  
