@@ -10,4 +10,4 @@ citation: 'Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., \& S
 ---
 [Download paper here](https://arxiv.org/pdf/1903.03240.pdf)
 
-Recommended citation: Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., \& Shupe, D. L. 2019, AJ, 158, 119
+Recommended citation: Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., & Shupe, D. L. 2019, AJ, 158, 119
