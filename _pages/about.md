@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a PhD student at the University of Oklahoma, working with Prof. John Wisniewski. My current research is focused on high contrast imaging of young circumstellar disk systems (primarily with the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.  More broadly, my interests lie in improving the value of data through:
+I'm a PhD student at the University of Oklahoma, working with Prof. John Wisniewski (2016-present, anticipating graduation in 2022). My current research is focused on high contrast imaging of young circumstellar disk systems (primarily with the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.  More broadly, my interests lie in improving the value of data through:
 
 - improvements to data processing and analysis techniques, especially on the software-side
 - better visualizations for both processing techniques and products to facilitate the dissemination of results (both to laypeople and those in the field)
