@@ -7,7 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a PhD student at the University of Oklahoma, working with Prof. John Wisniewski (2016-present, anticipating graduation in 2022). My current research is focused on high contrast imaging of young circumstellar disk systems (primarily with the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.  More broadly, my interests lie in improving the value of data through:
+I'm a PhD student at the University of Oklahoma, working with Prof. John Wisniewski (2016-present, anticipating graduation in 2022). My current research is focused on high contrast imaging of young circumstellar disk systems (primarily with the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.
+
+A recent presentation on some of my work with the new SCExAO/CHARIS spectropolarimetry observing mode:
+
+{% include spie2021_pres.html %}
+
+More broadly, my interests lie in improving the value of data through:
 
 - improvements to data processing and analysis techniques, especially on the software-side
 - better visualizations for both processing techniques and products to facilitate the dissemination of results (both to laypeople and those in the field)
@@ -21,5 +27,3 @@ In a recent paper, we demonstrated the utility of the Differential Evolution (DE
 To put the improvement offered by DE into perspective: the background contours in the toy-model visualization are drawn using a 12 point grid, meaning 12⁷ or ~36 million evaluations of our toy-model objective function. Noting that this is effectively a massive analog to the commonly implemented grid search: the DE run beats the best solution from the grid after only 1330 evaluations.
 
 Going forward, model optimization with DE will enable us to form a clearer picture of what we've observed, and will thus allow for more detailed analysis of things like dust grain distributions and disk geometry.
-
- 
