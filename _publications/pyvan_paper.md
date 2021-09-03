@@ -6,7 +6,7 @@ excerpt: ''
 date: 2019-08-21
 venue: 'The Astronomical Journal'
 paperurl: 'https://arxiv.org/pdf/1903.03240.pdf'
-citation: 'Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., \& Shupe, D. L. 2019, AJ, 158, 119'
+citation: 'Lawson, K. D., Wisniewski, J. P., Bellm, E. C., Kowalski, A. F., & Shupe, D. L. 2019, AJ, 158, 119'
 ---
 [Download paper here](https://arxiv.org/pdf/1903.03240.pdf)
 
