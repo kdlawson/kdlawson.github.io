@@ -15,7 +15,7 @@ A recent presentation on some of my work with the new SCExAO/CHARIS spectropolar
 
 More broadly, my interests lie in improving the value of data through:
 
-- improvements to data processing and analysis techniques, especially on the software-side
+- improvements to data processing and analysis techniques, especially on the software side
 - better visualizations for both processing techniques and products to facilitate the dissemination of results (both to laypeople and those in the field)
 
 ![](images/HD15115.png)
