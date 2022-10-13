@@ -20,12 +20,12 @@ High-contrast imaging studies of planet-forming disks are limited by the tendenc
 
 In a recent work, we presented "Constrained Reference Star Differential Imaging" (Constrained RDI): a class of PSF-subtraction techniques that provides circumstellar throughput near 100%, facilitating identification of embedded exoplanets and enabling more detailed studies of the disks themselves. The schematic below compares the conventional RDI approach (left) to that of our Polarimetry Constrained RDI (PCRDI; right). 
 
-<img src="images/rdi_and_pcrdi_explanation.png" alt="RDI and PCRDI schematic" width="800"/>
+<img src="images/rdi_and_pcrdi_explanation.png" alt="RDI and PCRDI schematic" width="550"/>
 
 
 In PCRDI, existing polarized intensity images are used to estimate the circumstellar signal contained in the data in order to suppress the oversubtraction that normally occurs. In application to non-axisymmetric protoplanetary disks, this estimate can be directly optimized to reduce signal loss to negligible levels on timescales orders of magnitude faster than those required to model the system instead. Below is an example of this optimization process for synthetic multi-wavelength data containing a simulated spiral-armed disk similar to AB Aurigae's (pictured above):
 
-<video width="1080" controls>
+<video width="800" controls>
   <source src="images/constrained_rdi_animation.m4v" type="video/mp4">
 </video>
 
