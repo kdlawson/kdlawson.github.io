@@ -7,23 +7,28 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a PhD student at the University of Oklahoma, working with Prof. John Wisniewski (2016-present, anticipating graduation in 2022). My current research is focused on high contrast imaging of young circumstellar disk systems (primarily with the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.
-
-A recent presentation on some of my work with the new SCExAO/CHARIS spectropolarimetry observing mode:
-
-{% include spie2021_pres.html %}
+I'm a NASA Postdoctoral Program Fellow at NASA Goddard Space Flight Center working with Drs. Mike McElwain, Josh Schlieder, and Tyler Groff. My current research is focused on high contrast imaging of young exoplanetary systems (primarily with a) JWST and b) the Subaru Telescope's SCExAO/CHARIS) toward the goal of better understanding how planetary systems form and evolve.
 
 More broadly, my interests lie in improving the value of data through:
 
 - improvements to data processing and analysis techniques, especially on the software side
-- better visualizations for both processing techniques and products to facilitate the dissemination of results (both to laypeople and those in the field)
+- better visualizations for both processing techniques and products to facilitate a better understanding of results (both to laypeople and those in the field)
 
-![](images/HD15115.png)
+![](images/ABAurb.png)
 
-In a recent paper, we demonstrated the utility of the Differential Evolution (DE) optimization algorithm for quickly navigating disk model parameters by applying it  to SCExAO/CHARIS data of the famous debris disk of HD 15115 (above). While DE doesn't provide the same detailed information regarding the parameter space as exploration-focused algorithms – like Markov-Chain Monte Carlo (MCMC) – it requires many fewer models be evaluated (~$10^3$ versus ~$10^6$ for MCMC) and is better equipped for complicated parameter spaces. This makes it especially well-suited for the time consuming forward modeling required for ground-based adaptive optics (AO) disk studies. In fact, most prior studies in this area simply explore a small, coarse grid of models to keep modeling times tractable. Based loosely on the samples we explored for the two-ring model of HD 15115, I created a toy-model parameter space to visualize how differential evolution moves a population of trial solutions toward the global solution:
+High-contrast imaging studies of planet-forming disks are limited by the tendency of stellar PSF-subtraction techniques to induce significant and variable loss of circumstellar light. To rigorously test any embedded (proto)planet candidates, i.e. by morphological or spectral analaysis, this flux loss must first be quantified. Conventionally, full modeling of the circumstellar environment was necesssary to produce even rough approximations of this loss. For many of the more interesting systems (i.e., those with axisymmetric features suggestive of unseen planets, such as spiral arms), identifying a synthetic model sufficient to calibrate throughput this way is entirely infeasible.
 
-![](images/toymodel_de.gif)
+In a recent work, we presented "Constrained Reference Star Differential Imaging" (Constrained RDI): a class of PSF-subtraction techniques that provides circumstellar throughput near 100%, facilitating identification of embedded exoplanets and enabling more detailed studies of the disks themselves. The schematic below compares the conventional RDI approach (left) to that of our Polarimetry Constrained RDI (PCRDI; right). 
+![](images/rdi_and_pcrdi_explanation.pdf)
 
-To put the improvement offered by DE into perspective: the background contours in the toy-model visualization are drawn using a 12 point grid, meaning 12⁷ or ~36 million evaluations of our toy-model objective function. Noting that this is effectively a massive analog to the commonly implemented grid search: the DE run beats the best solution from the grid after only 1330 evaluations.
+In PCRDI, existing polarized intensity images are used to estimate the circumstellar signal contained in the data in order to suppress the oversubtraction that normally occurs. In application to non-axisymmetric protoplanetary disks, this estimate can be directly optimized to reduce signal loss to negligible levels on timescales orders of magnitude faster than those required to model the system instead. Below is an example of this optimization process for synthetic multi-wavelength data containing a simulated spiral-armed disk similar to AB Aurigae's (pictured above):
 
-Going forward, model optimization with DE will enable us to form a clearer picture of what we've observed, and will thus allow for more detailed analysis of things like dust grain distributions and disk geometry.
+![](images/constrained_rdi_animation.m4v)
+
+This technique was utilized in the discovery of the protoplanet AB Aurigae b (Currie, Lawson, et al. 2022). Applying PCRDI to multiwavelength SCExAO/CHARIS integral field spectroscopy of AB Aur, we were able to confidently recover the distinct blue color of AB Aur b relative to the surrounding disk:
+
+![](images/abaur_sb_and_color.png)
+
+The wavelength-averaged result from PCRDI was used in the press releases accompanying the AB Aur b paper (the image of AB Aur feature above).
+
+In application to simulated JWST/NIRCam observations, we also demonstrate that an alternate approach using a fully synthetic disk model as the constraint (Model Constrained RDI or MCRDI) is similarly effective for simpler disk systems that can be modeled. Read the paper in ApJL [here](https://iopscience.iop.org/article/10.3847/2041-8213/ac853b/meta) if you're interested in learning more! We intend to release software supporting application of these techniques for the general public in late 2022.
