@@ -32,10 +32,10 @@ In PCRDI, existing polarized intensity images are used to estimate the circumste
   <source src="images/constrained_rdi_animation.m4v" type="video/mp4">
 </video>
 
-This technique was utilized in the discovery of the protoplanet AB Aurigae b (Currie, Lawson, et al. 2022). Applying PCRDI to multiwavelength SCExAO/CHARIS integral field spectroscopy of AB Aur, we were able to confidently recover the distinct blue color of AB Aur b relative to the surrounding disk (right-most panel):
+This technique was utilized in the discovery of the protoplanet AB Aurigae b (Currie, Lawson, et al. 2022). Applying PCRDI to multiwavelength SCExAO/CHARIS integral field spectroscopy of AB Aur, we were able to confidently recover the distinct blue color of AB Aur b relative to the surrounding disk (right-most panel; PCRDI in blue, conventional RDI in orange):
 
 ![](images/abaur_sb_and_color.png)
 
-The wavelength-averaged result from PCRDI was used in the press releases accompanying the AB Aur b paper (the image of AB Aur feature above).
+The wavelength-averaged result from PCRDI was used in the press releases accompanying the AB Aur b paper (the image of AB Aur featured above).
 
 In application to simulated JWST/NIRCam observations, we also demonstrate that an alternate approach using a fully synthetic disk model as the constraint (Model Constrained RDI or MCRDI) is similarly effective for simpler disk systems that can be modeled. Read the paper in ApJL [here](https://iopscience.iop.org/article/10.3847/2041-8213/ac853b/meta) if you're interested in learning more! We intend to release software supporting application of these techniques for the general public in late 2022.
