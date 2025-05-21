@@ -18,10 +18,10 @@ with JWST.
 
 <p align="center">
   <img src="images/STScI_jwst_aumic_press_release.png" alt="Press release for Lawson et al. (2023)" width="650"/>
-  <em>Press release images of the AU Microscopii debris disk at 3.6 and 4.4 microns as observed by JWST/NIRCam (reported in Lawson et al. 2023).</em>
 </p>
+<em>Press release images of the AU Microscopii debris disk at 3.6 and 4.4 microns as observed by JWST/NIRCam (reported in Lawson et al. 2023).</em>
 
-<video width="650" controls>
+<video width="450" controls>
   <source src="images/abaur_deconv_anim.mov" type="video/mp4">
 </video>
 <em>Deconvolution of simulated JWST NIRCam coronagraphic observations of the AB
