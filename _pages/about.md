@@ -17,12 +17,12 @@ tool for post-processing and analysis of circumstellar disk systems observed
 with JWST.
 
 <p align="center">
-  <img src="images/STScI_jwst_aumic_press_release.png" alt="Press release for Lawson et al. (2023)" width="900"/>
+  <img src="images/STScI_jwst_aumic_press_release.png" alt="Press release for Lawson et al. (2023)" width="1200"/>
 </p>
 <em>Press release images of the AU Microscopii debris disk at 3.6 and 4.4 microns as observed by JWST/NIRCam (reported in Lawson et al. 2023).</em>
 
 <p align="center">
-<video width="450" controls>
+<video width="500" controls>
   <source src="images/abaur_deconv_anim.mov" type="video/mp4">
 </video>
 </p>
