@@ -15,8 +15,8 @@ systems of low mass stars. Currently, my time is split between two research
 projects. 
 
 In the first project, I'm working with high-contrast imaging data from JWST.
-This includes further development of <a
-href="https://github.com/kdlawson/Winnie/"><tt>Winnie</tt></a>, a Python
+This includes further development of<a
+href="https://github.com/kdlawson/Winnie/"><tt> Winnie</tt></a>, a Python
 package for post-processing and analysis of circumstellar disk systems that I
 created during my time as a NASA Postdoctoral Program fellow. As part of this
 project, I will also be working with observations from a JWST Cycle 4 program
